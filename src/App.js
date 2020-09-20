@@ -34,7 +34,6 @@ class App extends React.Component {
               ...snapShot.data(), // .data() returns the actual data properties for the snapShot object
             },
           });
-          console.log(this.state);
         });
       }
       this.setState({ currentUser: userAuth }); // if userAuth is null, set the state to null
